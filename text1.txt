@@ -1,0 +1,9 @@
+There are many ways to launch the GUI on system boot for Linux (Ubuntu), but I followed this automated method:
+1. Create a simple shell script (attached - gci.sh)
+2. Insert the script into the autostart menu (see attached screenshot) for ubuntu.
+3. Done
+
+2nd Method:
+1. Create a service (gci2.service - see attached)
+2. Test it, enable it and start it by sudo systemctl start (enable) gci2.service
+3. Done
